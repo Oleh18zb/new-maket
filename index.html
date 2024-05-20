@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simply Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400.500.600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="nav">
@@ -14,9 +19,9 @@
             <li class="nav-items"><a class="nav-link" href="">Chocolate is loved</a></li>
         </ul>
         <ul class="social-list">
-            <li class="social-items"><img src="" alt="">inst</li>
-            <li class="social-items"><img src="" alt="">fb</li>
-            <li class="social-items"><img src="" alt="">twit</li>
+            <li class="social-items"><a href=""></a>inst</li>
+            <li class="social-items"><a href=""></a>fb</li>
+            <li class="social-items"><a href=""></a>twit</li>
         </ul>
     </header>
     <main>
@@ -26,7 +31,7 @@
             of pure delight!</h1>
             <button class="hero-btn" type="button">Buy now</button>
             <a class="hero-link" href="">How it’s made</a>
-            <a class="hero-scrol" href="">scroll down</a>
+            <a class="hero-scrol" href="#sec-made">scroll down</a>
         </section>
         <section class="features">
             <h2 class="features-titil" hidden>Features</h2>
@@ -51,7 +56,7 @@
             </ul>
         </section>
         <section class="taste">
-            <h2 class="taste-title">IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
+            <h2 class="taste-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="taste-span">TASTE</span> SENSATION</h2>
             <p class="taste-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the
             finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
             exceptional taste sensation.</p>
@@ -86,28 +91,32 @@
                 </li>
             </ul>
         </section>
-        <section class="made">
-            <h2 class="made-title">hOW IT’S made?</h2>
+        <section id="sec-made" class="made">
+            <h2 class="made-title">hOW IT’S <span class="made-span">made?</span></h2>
             <img src="./images/image.jpg" alt="" class="made-img">
-            <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
-            <ul class="made list">
-                <li class="made-items">
-                    <p class="made text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
-                </li>
-                <li class="made-items">
-                    <p class="made text">At the same time, prepare a water bath. Melt the butter on it.</p>
-                </li>
-                <li class="made-items">
-                    <p class="made text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes
-                    uniform and silky.</p>
-                </li>
-                <li class="made-items">
-                    <p class="made text">Heat the mixture over low heat, letting it barely boil.</p>
-                </li>
-                <li class="made-items">
-                    <p class="made text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
-                </li>
-            </ul>
+            <div class="made-container">
+                <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
+                <ul class="made-list">
+                    <li class="made-items">
+                        <p class="made-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
+                    </li>
+                    <li class="made-items">
+                        <p class="made-text">At the same time, prepare a water bath. Melt the butter on it.</p>
+                    </li>
+                    <li class="made-items">
+                        <p class="made-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so
+                            that the mass becomes
+                            uniform and silky.</p>
+                    </li>
+                    <li class="made-items">
+                        <p class="made-text">Heat the mixture over low heat, letting it barely boil.</p>
+                    </li>
+                    <li class="made-items">
+                        <p class="made-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool
+                            and harden.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="products">
             <h2 class="products-title">Our <span class="products-span">pRODUCTS</span></h2>
@@ -115,55 +124,55 @@
                 <li class="products-items">
                     <img src="./images/imge-1.jpg" alt="orange " class="products-img">
                     <h3 class="products-subtitle">orange</h3>
-                    <p class="products text">Dark chocolate</p>
+                    <p class="products-text">Dark chocolate</p>
                     <button type="button" class="products-btn">45 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-2.jpg" alt="APPLE&CRANBERRY" class="products-img">
                     <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
-                    <p class="products text">Milk chocolate</p>
+                    <p class="products-text">Milk chocolate</p>
                     <button type="button" class="products-btn">50 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-3.jpg" alt="lime&sea salt" class="products-img">
                     <h3 class="products-subtitle">lime&sea salt</h3>
-                    <p class="products text">Dark chocolate</p>
+                    <p class="products-text">Dark chocolate</p>
                     <button type="button" class="products-btn">66 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-4.jpg" alt="pineapple" class="products-img">
                     <h3 class="products-subtitle">pineapple</h3>
-                    <p class="products text">Dark chocolate</p>
+                    <p class="products-text">Dark chocolate</p>
                     <button type="button" class="products-btn">54 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-5.jpg" alt="Classic" class="products-img">
                     <h3 class="products-subtitle">Classic</h3>
-                    <p class="products text">Milk chocolate</p>
+                    <p class="products-text">Milk chocolate</p>
                     <button type="button" class="products-btn">45 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-6.jpg" alt="honey" class="products-img">
                     <h3 class="products-subtitle">honey</h3>
-                    <p class="products text">Milk chocolate</p>
+                    <p class="products-text">Milk chocolate</p>
                     <button type="button" class="products-btn">50 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-7.jpg" alt="Roasted fruits" class="products-img">
                     <h3 class="products-subtitle">Roasted fruits</h3>
-                    <p class="products text">Dark chocolate</p>
+                    <p class="products-text">Dark chocolate</p>
                     <button type="button" class="products-btn">66 UAH</button>
                 </li>
                 <li class="products-items">
                     <img src="./images/imge-8.jpg" alt="Classic" class="products-img">
                     <h3 class="products-subtitle">Classic</h3>
-                    <p class="products text">White chocolate</p>
+                    <p class="products-text">White chocolate</p>
                     <button type="button" class="products-btn">54 UAH</button>
                 </li>
             </ul>
         </section>
         <section class="sellers">
-            <h2 class="sellers-title">tOp Sellers</h2>
+            <h2 class="sellers-title"><span class="sellers-span">tOp</span> Sellers</h2>
             <ul class="sellers-list">
                 <li class="sellers-items">
                     <img src="./images/imges-1.jpg" alt="CHOCOLATE-WITH-NUTS" class="sellers-img">
@@ -203,14 +212,14 @@
             <a href="" class="reviews-link"></a>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p class="footer-title"><span class="footer-span">Chocolate</span> a delicious cure for a bad day</p>
         <p class="footer-social-text">Social networks</p>
         <ul class="footer-social-list">
             <li class="footer-social-items">
-                <img src="" alt="inst" class="footer-social-img">
-                <img src="" alt="fb" class="footer-social-img">
-                <img src="" alt="twit" class="footer-social-img">
+                <a class="footer-social-link" href="">inst</a>
+                <a class="footer-social-link" href="">fb</a>
+                <a class="footer-social-link" href="">twit</a>
             </li>
         </ul>
         <p class="footer-text-contact">Contact us</p>
@@ -232,8 +241,8 @@
             <li class="footer-nav-items">
                 <a href="" class="footer-nav-link">Chocolate is loved</a>
             </li>
-            <button type="button" class="footer-btn">Subscribe</button>
         </ul>
+        <button type="button" class="footer-btn">Subscribe</button>
     </footer>
 </body>
 </html>
